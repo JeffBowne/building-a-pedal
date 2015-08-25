@@ -735,7 +735,6 @@ svg {
 
 
 .wrapper {
-	border: solid black 1px;
 	position: fixed;
 	width: 100%;
 	top: -50px;
