@@ -539,11 +539,92 @@ body {
 		opacity: 1;
 		transform:translate(0px, 1px);
     }
-    12100 {
+    11200 {
     	opacity: 1;
 		transform:translate(0px, 7px);
     }
-    12200 {
+    11600 {
+    	opacity: 0;
+		transform:translate(0px, 11px);
+    }
+}
+
+#guide7 {
+	z-index: 10;
+	position: fixed;
+	top: 30%;
+	left: 10%;
+	width: 40%;
+	font-size: 5vw;
+    -skrollr-animation-name: guide7;
+}
+
+@-skrollr-keyframes guide7 {
+	12000 {
+		opacity: 0;
+		transform:translate(0px, 0px);
+    }
+    12100 {
+		opacity: 1;
+		transform:translate(0px, 1px);
+    }
+    12600 {
+    	opacity: 1;
+		transform:translate(0px, 6px);
+    }
+    13000 {
+    	opacity: 0;
+		transform:translate(0px, 12px);
+    }
+}
+#gweird {
+	z-index: 10;
+	position: fixed;
+	top: 55%;
+	left: 10%;
+	width: 40%;
+	font-size: 5vw;
+    -skrollr-animation-name: gweird;
+}
+
+@-skrollr-keyframes gweird {
+    12500 {
+		opacity: 0;
+		transform:translate(0px, 1px);
+    }
+    12600 {
+    	opacity: 1;
+		transform:translate(0px, 6px);
+    }
+    13000 {
+    	opacity: 0;
+		transform:translate(0px, 12px);
+    }
+}
+#guide8 {
+	z-index: 10;
+	position: fixed;
+	top: 30%;
+	left: 10%;
+	width: 40%;
+	font-size: 5vw;
+    -skrollr-animation-name: guide8;
+}
+
+@-skrollr-keyframes guide8 {
+	13000 {
+		opacity: 0;
+		transform:translate(0px, 0px);
+    }
+    13100 {
+		opacity: 1;
+		transform:translate(0px, 1px);
+    }
+    13700 {
+    	opacity: 1;
+		transform:translate(0px, 7px);
+    }
+    14100 {
     	opacity: 0;
 		transform:translate(0px, 11px);
     }
@@ -574,15 +655,6 @@ body {
 
 
 
-
-
-
-
-
-	.t1{display:inline;}
-	.t2{font-family:'Arial-Black';}
-	.t3{font-size:19.7278px;}
-	.t4{font-size:20.7276px;}
 
 
 
@@ -687,7 +759,41 @@ body {
 
 
 
+	.st33{fill:#1C75BC;}
+	.st34{fill:none;stroke:#19669B;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st35{fill:#BE1E2D;}
+	
+.st36{fill:none;stroke:#ED1C24;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray:510;
+	stroke-dashoffset:510;
+	-skrollr-animation-name: sw1;
+}
+@-skrollr-keyframes sw1 {
+	13000 {
+	    stroke-dashoffset: 510;
+	}
+	14000 {
+		stroke-dashoffset: 0;
+	}
+}
+.st37{fill:none;stroke:#ED1C24;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;
+	stroke-dasharray:180;
+	stroke-dashoffset:180;
+	-skrollr-animation-name: sw2;
+}
+@-skrollr-keyframes sw2 {
+	13700 {
+	    stroke-dashoffset: 180;
+	}
+	14000 {
+		stroke-dashoffset: 0;
+	}
+}
 
+
+	.t1{font-family:'Arial-Black';}
+	.t2{font-size:19.7278px;}
+#switchwires text {-skrollr-animation-name: text;}@-skrollr-keyframes text {14000 {opacity: 0;} 14100 {opacity: 1;} }
 
 
 
@@ -1576,9 +1682,35 @@ svg {
 
 
 
+#switch {
+	-skrollr-animation-name: switch;
+}
+@-skrollr-keyframes switch {
+	11600 {
+		transform:translate(350px, 0px) rotate(400deg);
+		transform-origin: 50% 50%;
+	}
+	12100 {
+		transform:translate(0px, 0px) rotate(1deg);
+        transform-origin: 50% 50%;
+	}
+	12200 {
+		transform:translate(0px, 0px) rotate(1deg);
+        transform-origin: 50% 50%;
+	}
+	12900 {
+		transform:translate(0px, 0px) rotate(1deg);
+        transform-origin: 50% 50%;
+	}
+}
 
 
-#wires text {-skrollr-animation-name: text;}@-skrollr-keyframes text {11300 {opacity: 0;} 11320 {opacity: 1;} }
+
+
+
+
+
+
 
 
 
@@ -1610,3 +1742,6 @@ svg {
 }*/
 
 
+.redw {
+	visibility: hidden;
+}
