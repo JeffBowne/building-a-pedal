@@ -171,6 +171,59 @@ body {
     	opacity: .5;
     	transform[swing]:translate(-50%, 10%) rotate(-90deg);
     }
+   	15000 {
+    	font-size: 8vw;
+    	opacity: .5;
+    	transform[swing]:translate(-50%, 10%) rotate(-90deg);
+    }
+   	16000 {
+    	font-size: 8vw;
+    	opacity: 0;
+    	transform[swing]:translate(-50%, 10%) rotate(-90deg);
+    }
+}
+
+
+
+
+
+#soon {
+	font-size: 11vw;
+	text-decoration: underline;
+    position: fixed;
+    /* center the div */
+    right: 0;
+    left: 0;
+    top: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    width: 90%;
+    text-align: center;
+    -skrollr-animation-name: soon;
+}
+
+@-skrollr-keyframes soon {
+	15950 {
+		opacity: 0;
+		transform:translate(0px, 0px) rotate(0deg) scale(.00001);
+		transform-origin: 50% 50%;
+	}
+	16200 {
+		opacity: 1;
+		transform:translate(0px, 0px) rotate(0deg) scale(1);
+        transform-origin: 50% 50%;
+	}
+	17200 {
+		opacity: 1;
+		transform:translate(0px, 0px) rotate(0deg) scale(1.1);
+        transform-origin: 50% 50%;
+	}
+	18200 {
+		opacity: 0;
+		transform:translate(0px, 0px) rotate(0deg) scale(1.2);
+        transform-origin: 50% 50%;
+	}
 }
 
 
@@ -403,7 +456,7 @@ body {
 		transform:translate(0px, 8px);
     }
 
-}	
+}
 #gdio {
 	z-index: 10;
 	position: fixed;
@@ -820,17 +873,32 @@ svg {
 @-skrollr-keyframes boom {
 	6000 {
 		opacity: 1;
-		transform:translate(25%, 0px) scale(1);
+		transform:translate(25%, 0px) rotate(0deg) scale(1);
 		transform-origin: 50% 50%;
 	}
 	6025 {
 		opacity: 1;
-		transform:translate(25%, 10px) scale(1);
+		transform:translate(25%, 10px) rotate(0deg) scale(1);
 		transform-origin: 50% 50%;
 	}
 	6050 {
 		opacity: 1;
-		transform:translate(25%, 0px) scale(1);
+		transform:translate(25%, 0px) rotate(0deg) scale(1);
+        transform-origin: 50% 50%;
+	}
+	14000 {
+		opacity: 1;
+		transform:translate(25%, 0px) rotate(0deg) scale(1);
+		transform-origin: 50% 50%;
+	}
+	15000 {
+		opacity: 1;
+		transform:translate(23%, 0px) rotate(0deg) scale(.99);
+		transform-origin: 50% 50%;
+	}
+	16000 {
+		opacity: 1;
+		transform:translate(0%, 0px) rotate(-1000deg) scale(.001);
         transform-origin: 50% 50%;
 	}
 }
@@ -1412,11 +1480,31 @@ svg {
 
 
 
+body {
+	background-color: #FFF;
+}
 
 
 
 
+#bg {
+	-skrollr-animation-name: bgfade;
+}
+@-skrollr-keyframes bgfade {
+	6200 {
+		opacity: 1;
+	}
+	6400 {
+		opacity: .1;
+	}
 
+	10200 {
+		opacity: .1;
+	}
+	10400 {
+		opacity: 1;
+	}
+}
 
 #board, #circuit, #holes {
 	-skrollr-animation-name: allfade;
@@ -1426,11 +1514,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1446,11 +1534,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	6600 {
-		opacity: .2;
+		opacity: .1;
 	}
 	6800 {
 		opacity: 1;
@@ -1459,11 +1547,11 @@ svg {
 		opacity: 1
 	}
 	7400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1478,11 +1566,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	7400 {
-		opacity: .2;
+		opacity: .1;
 	}
 	7600 {
 		opacity: 1;
@@ -1491,11 +1579,11 @@ svg {
 		opacity: 1
 	}
 	8200 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1513,11 +1601,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	8200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	8400 {
 		opacity: 1;
@@ -1526,11 +1614,11 @@ svg {
 		opacity: 1
 	}
 	9000 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1547,11 +1635,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	9000 {
-		opacity: .2;
+		opacity: .1;
 	}
 	9200 {
 		opacity: 1;
@@ -1560,11 +1648,11 @@ svg {
 		opacity: 1
 	}
 	9800 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1578,11 +1666,11 @@ svg {
 		opacity: 1;
 	}
 	6400 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	9200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	9400 {
 		opacity: 1;
@@ -1591,11 +1679,11 @@ svg {
 		opacity: 1
 	}
 	10000 {
-		opacity: .2;
+		opacity: .1;
 	}
 
 	10200 {
-		opacity: .2;
+		opacity: .1;
 	}
 	10400 {
 		opacity: 1;
@@ -1703,10 +1791,6 @@ svg {
         transform-origin: 50% 50%;
 	}
 }
-
-
-
-
 
 
 
