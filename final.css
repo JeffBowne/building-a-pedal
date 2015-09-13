@@ -28,6 +28,20 @@ body {
 
 
 
+
+
+
+#scroll {
+	font-size: 4vw;
+	text-align: center;
+	width: 40%;
+	margin: -10px auto;
+}
+
+
+
+
+
 #headline {
 	z-index: 10;
     position: fixed;
@@ -189,7 +203,6 @@ body {
 
 #soon {
 	font-size: 11vw;
-	text-decoration: underline;
     position: fixed;
     /* center the div */
     right: 0;
@@ -227,10 +240,54 @@ body {
 }
 
 
-
-
-
-
+#visit {
+	text-align: center;
+	z-index: 20;
+	font-size: 4vw;
+	position: fixed;
+	bottom: 20%;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+    margin-left: auto;
+	-skrollr-animation-name: visit;
+}
+@-skrollr-keyframes visit {
+	15950 {
+		opacity: 0;
+		transform:translate(0px, 0px) rotate(0deg) scale(.00001);
+		transform-origin: 50% 50%;
+	}
+	16200 {
+		opacity: 0;
+		transform:translate(0px, 0px) rotate(0deg) scale(1);
+        transform-origin: 50% 50%;
+	}
+	17200 {
+		opacity: 1;
+		transform:translate(0px, 0px) rotate(0deg) scale(1.1);
+        transform-origin: 50% 50%;
+	}
+	18200 {
+		opacity: 1;
+		transform:translate(0px, 0px) rotate(0deg) scale(1.2);
+        transform-origin: 50% 50%;
+	}
+}
+#visit a {
+	color: #A12621;
+}
+#visit a:hover {
+	transition-duration: .2s;
+	color: #FF4641;
+}
+#visit a:visited {
+	color: #A12621;
+}
+#visit a:visited:hover {
+	transition-duration: .2s;
+	color: #FF4641;
+}
 
 
 
