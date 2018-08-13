@@ -1773,11 +1773,11 @@ body {
 }
 @-skrollr-keyframes pot1 {
 	10600 {
-		transform:translate(-50px, -160px) rotate(1deg);
+		transform:translate(-50px, -200px);
 		transform-origin: 50% 50%;
 	}
 	10850 {
-		transform:translate(0px, 0px) rotate(1deg);
+		transform:translate(0px, 0px);
         transform-origin: 50% 50%;
 	}
 }
@@ -1787,11 +1787,11 @@ body {
 }
 @-skrollr-keyframes pot2 {
 	10600 {
-		transform:translate(0px, -160px) rotate(1deg);
+		transform:translate(0px, -200px);
 		transform-origin: 50% 50%;
 	}
 	10950 {
-		transform:translate(0px, 0px) rotate(1deg);
+		transform:translate(0px, 0px);
         transform-origin: 50% 50%;
 	}
 }
@@ -1801,11 +1801,11 @@ body {
 }
 @-skrollr-keyframes pot3 {
 	10600 {
-		transform:translate(0px, -160px) rotate(1deg);
+		transform:translate(0px, -200px);
 		transform-origin: 50% 50%;
 	}
 	11082 {
-		transform:translate(0px, 0px) rotate(1deg);
+		transform:translate(0px, 0px);
         transform-origin: 50% 50%;
 	}
 }
@@ -1815,11 +1815,11 @@ body {
 }
 @-skrollr-keyframes pot4 {
 	10600 {
-		transform:translate(50px, -160px) rotate(1deg);
+		transform:translate(50px, -200px);
 		transform-origin: 50% 50%;
 	}
 	10900 {
-		transform:translate(0px, 0px) rotate(1deg);
+		transform:translate(0px, 0px);
         transform-origin: 50% 50%;
 	}
 }
