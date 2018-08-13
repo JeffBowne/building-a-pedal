@@ -1850,38 +1850,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*svg {
-	position: relative;
-    -skrollr-animation-name: total;
-}
-@-skrollr-keyframes total {
-    1000 {
-        transform:translate(0%, 0%);
-    }
-
-    1500 {
-        transform:translate(-50%, 0%);
-    }
-}*/
-
-
 .redw {
 	visibility: hidden;
 }
