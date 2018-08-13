@@ -1831,19 +1831,19 @@ body {
 }
 @-skrollr-keyframes switch {
 	11600 {
-		transform:translate(350px, 0px) rotate(400deg, 100, 100);
+		transform:translate(350px, 0px) rotate(400deg, 100px, 100px);
 		transform-origin: 50% 50%;
 	}
 	12100 {
-		transform:translate(0px, 0px) rotate(1deg, 100, 100);
+		transform:translate(0px, 0px) rotate(1deg, 100px, 100px);
         transform-origin: 50% 50%;
 	}
 	12200 {
-		transform:translate(0px, 0px) rotate(1deg, 100, 100);
+		transform:translate(0px, 0px) rotate(1deg, 100px, 100px);
         transform-origin: 50% 50%;
 	}
 	12900 {
-		transform:translate(0px, 0px) rotate(1deg, 100, 100);
+		transform:translate(0px, 0px) rotate(1deg, 100px, 100px);
         transform-origin: 50% 50%;
 	}
 }
