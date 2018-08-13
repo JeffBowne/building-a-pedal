@@ -1125,7 +1125,7 @@ svg {
 }
 @-skrollr-keyframes cap01 {
 	5200 {
-		transform:translate(0px, -300px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5300 {
 		transform:translate(0px, 0px) scale(1);
@@ -1137,7 +1137,7 @@ svg {
 }
 @-skrollr-keyframes cap02 {
 	5250 {
-		transform:translate(0px, -300px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5350 {
 		transform:translate(0px, 0px) scale(1);
@@ -1149,7 +1149,7 @@ svg {
 }
 @-skrollr-keyframes cap03 {
 	5300 {
-		transform:translate(0px, -350px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5400 {
 		transform:translate(0px, 0px) scale(1);
@@ -1161,7 +1161,7 @@ svg {
 }
 @-skrollr-keyframes cap04 {
 	5350 {
-		transform:translate(0px, -350px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5450 {
 		transform:translate(0px, 0px) scale(1);
@@ -1173,7 +1173,7 @@ svg {
 }
 @-skrollr-keyframes res01 {
 	5400 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5500 {
 		transform:translate(0px, 0px) scale(1);
@@ -1192,7 +1192,7 @@ svg {
 }
 @-skrollr-keyframes cap05 {
 	5500 {
-		transform:translate(0px, -500px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5600 {
 		transform:translate(0px, 0px) scale(1);
@@ -1204,7 +1204,7 @@ svg {
 }
 @-skrollr-keyframes res02 {
 	5550 {
-		transform:translate(0px, -500px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5650 {
 		transform:translate(0px, 0px) scale(1);
@@ -1216,7 +1216,7 @@ svg {
 }
 @-skrollr-keyframes res03 {
 	5600 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5700 {
 		transform:translate(0px, 0px) scale(1);
@@ -1228,7 +1228,7 @@ svg {
 }
 @-skrollr-keyframes res04 {
 	5650 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5750 {
 		transform:translate(0px, 0px) scale(1);
@@ -1240,7 +1240,7 @@ svg {
 }
 @-skrollr-keyframes cap06 {
 	5700 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5800 {
 		transform:translate(0px, 0px) scale(1);
@@ -1252,7 +1252,7 @@ svg {
 }
 @-skrollr-keyframes dio1 {
 	5750 {
-		transform:translate(0px, -300px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5850 {
 		transform:translate(0px, 0px) scale(1);
@@ -1264,7 +1264,7 @@ svg {
 }
 @-skrollr-keyframes dio2 {
 	5800 {
-		transform:translate(0px, -300px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5900 {
 		transform:translate(0px, 0px) scale(1);
@@ -1276,7 +1276,7 @@ svg {
 }
 @-skrollr-keyframes res05 {
 	5700 {
-		transform:translate(0px, -400px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5800 {
 		transform:translate(0px, 0px) scale(1);
@@ -1288,7 +1288,7 @@ svg {
 }
 @-skrollr-keyframes cap07 {
 	5700 {
-		transform:translate(0px, -400px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5800 {
 		transform:translate(0px, 0px) scale(1);
@@ -1300,7 +1300,7 @@ svg {
 }
 @-skrollr-keyframes cap08 {
 	5650 {
-		transform:translate(0px, -400px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5750 {
 		transform:translate(0px, 0px) scale(1);
@@ -1312,7 +1312,7 @@ svg {
 }
 @-skrollr-keyframes res06 {
 	5450 {
-		transform:translate(0px, -400px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5550 {
 		transform:translate(0px, 0px) scale(1);
@@ -1324,7 +1324,7 @@ svg {
 }
 @-skrollr-keyframes ichip {
 	5900 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	6000 {
 		transform:translate(0px, 0px) scale(1);
@@ -1336,7 +1336,7 @@ svg {
 }
 @-skrollr-keyframes cap09 {
 	5050 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5150 {
 		transform:translate(0px, 0px) scale(1);
@@ -1348,7 +1348,7 @@ svg {
 }
 @-skrollr-keyframes cap10 {
 	5100 {
-		transform:translate(0px, -500px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5200 {
 		transform:translate(0px, 0px) scale(1);
@@ -1360,7 +1360,7 @@ svg {
 }
 @-skrollr-keyframes res07 {
 	5150 {
-		transform:translate(0px, -450px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5250 {
 		transform:translate(0px, 0px) scale(1);
@@ -1372,7 +1372,7 @@ svg {
 }
 @-skrollr-keyframes res08 {
 	5200 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5300 {
 		transform:translate(0px, 0px) scale(1);
@@ -1384,7 +1384,7 @@ svg {
 }
 @-skrollr-keyframes dio3 {
 	5250 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5350 {
 		transform:translate(0px, 0px) scale(1);
@@ -1396,7 +1396,7 @@ svg {
 }
 @-skrollr-keyframes cap11 {
 	5300 {
-		transform:translate(0px, -400px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5400 {
 		transform:translate(0px, 0px) scale(1);
@@ -1408,7 +1408,7 @@ svg {
 }
 @-skrollr-keyframes cap12 {
 	5350 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5450 {
 		transform:translate(0px, 0px) scale(1);
@@ -1420,7 +1420,7 @@ svg {
 }
 @-skrollr-keyframes res09 {
 	5400 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5500 {
 		transform:translate(0px, 0px) scale(1);
@@ -1432,7 +1432,7 @@ svg {
 }
 @-skrollr-keyframes res10 {
 	5450 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5550 {
 		transform:translate(0px, 0px) scale(1);
@@ -1444,7 +1444,7 @@ svg {
 }
 @-skrollr-keyframes res11 {
 	5500 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5600 {
 		transform:translate(0px, 0px) scale(1);
@@ -1456,7 +1456,7 @@ svg {
 }
 @-skrollr-keyframes cap13 {
 	5550 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5650 {
 		transform:translate(0px, 0px) scale(1);
@@ -1468,7 +1468,7 @@ svg {
 }
 @-skrollr-keyframes res08 {
 	5600 {
-		transform:translate(0px, -550px) scale(4);
+		transform:translate(0px, 100vh) scale(4);
 	}
 	5700 {
 		transform:translate(0px, 0px) scale(1);
